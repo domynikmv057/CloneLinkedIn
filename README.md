@@ -1,2 +1,2 @@
 # CloneLinkedIn
- Clone do linkedin, exercicio final do modulo 01 da Let's Coder
+ Exercício feito para a conclusão do modulo 01 do curso da Let's Coders
