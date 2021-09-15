@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1eee3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#containerPrincipal {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*GLOBAIS*/
+
+.fontBold {
+    font-weight: bold;
+}
+
+.fontTamaPequeno {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+/* NAV */
+
+nav {
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    z-index: 1;
+}
+
+li:nth-child(6) {
+    margin: 20px;
+}
+
+input {
+    height: 38px;
+    width: 300px;
+    position: relative;
+    bottom: 5%;
+    background-color: #EEF3F8;
+    background-image: url(/images/loupe.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border: none;
+    border-radius: 6px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+}
+
+#pesquisa {
+    width: 70vw;
+    max-width: 1070px;
+    min-width: 730px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menus {
+    list-style: none;
+}
+
+#menus li {
+    display: inline;
+    margin: 10px;
+    
+}
+
+#logoLinke {
+    position: relative;
+    top: 18%;
+    border-radius: 1px;
+}
+
+#fotoMinhaNav {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-top: 15%;
+    border-radius: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-color: black;
+    margin-left: -5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+    width: 70vw;
+    max-width: 1070px;
+    min-width: 730px;
+    position: static;
+   /* border: 2px solid rgb(255, 6, 255);*/
+}
+
+#backgroundSuperior {
+    background-image: url(/images/blackhole.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+#fotoPerfil {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    display: flex;
+    border-radius: 100%;
+    overflow: hidden;
+    background-position: center;
+    border: 5px solid white;
+    
+}
+
+#apresentacao {
+    justify-content: space-between;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    bottom: 75px;
+}
+
+#espacamento {
+    padding-left: 30px;
+}
+
+#buttonStyle1 {
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background-color: #0A66C2;
+    border: 1px solid;
+}
+
+#buttonStyle1:hover {
+    background-color: #063564;
+}
+
+#buttonStyle2 {
+    width: 130px;
+}
+#buttonStyle2:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+#buttonStyle3 {
+    width: 70px;
+}
+
+#buttonStyle3:hover {
+    background-color: rgb(240, 240, 240);
+}
+#alinhandoIcone1 {
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+}
+
+#alinhandoIcone2 {
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+}
+
+.botaoCompartilha {
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: #6D6D6D;
+    border: 1px solid #6D6D6D;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#atividadesTrabalhos {
+    width: 200px;
+    position: relative;
+    right: 60px;
+    bottom: 60px;
+}
+.personalizadoImagen {
+    width: 200px;
+    position: relative;
+    left: 180px;
+    margin-bottom: 30px;
+}
+
+.backColor {
+    background-color: white;
+}
+
+.hFraco {
+    font-weight: normal;
+}
+
+.spanCor {
+    color: #3094f8;
+}
+
+.spanCor:hover {
+    text-decoration: underline;
+}
+
+.marginDez {
+    margin-top: 10px;
+}
+
+
+/* SOBRE*/
+
+#sobre {
+    height: 160px;
+    margin-top: -50px;
+    background-color: white; 
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px ;
+}
+
+#floatRigt {
+    position: relative;
+    float: right;
+    bottom: 25px;
+}
+
+#meioContainer {
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.marginTop {
+    margin-top: 40px;
+}
+
+#experienciaFormacao {
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #EBEBEB;
+}
+
+.experienciaCont {   
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcaoConteiner {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.gadgetContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+}
+
+.marginExperiencia {
+    margin: 20px;
+}
+
+.tituloFuncao {
+    padding: 20px;
+}
+
+.itensExperiencia {
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+
+.estiloTirado {
+    text-decoration: none;
+    color: #7D7D7D;
+}
+
+.estiloTirado:hover {
+    text-decoration: underline;
+}
+.paraHover:hover {
+    text-decoration: underline;
+}
+
