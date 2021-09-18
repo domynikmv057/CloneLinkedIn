@@ -70,15 +70,16 @@ ul {
 }
 
 #logoInput {
-    margin: auto auto auto 10px;
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex;
    
 }
 
 #pesquisa {
     width: 70vw;
-    max-width: 1085px;
-    min-width: 700px;
+    max-width: 1060px;
+    min-width: 769px;
     display: flex;
     justify-content: space-between;
 }
@@ -107,8 +108,9 @@ ul {
     overflow: hidden;
     background-position: center;
     background-color: black;
-    margin-left: -5px;
 }
+
+
 
 nav a {
     text-decoration: none;
@@ -322,3 +324,15 @@ main {
     text-decoration: underline;
 }
 
+@media (max-width: 900px)
+{
+    .fontTamaPequeno {
+        display: none;
+    }
+
+    #pesquisa {
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+}
