@@ -246,7 +246,13 @@ main {
     margin-top: 10px;
 }
 
+.opaco {
+    opacity: 0.6;
+}
 
+.opaco:hover {
+    opacity: initial;
+}
 /* SOBRE*/
 
 #sobre {
